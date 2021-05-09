@@ -47,11 +47,17 @@ def make_file_line_data(repository: Github) -> str:
     return list_to_csvline(data)
 
 
+def csv_folderpath() -> str:
+    current_dir = pathlib.Path(__file__).parent.absolute()
+    return f"{current_dir}/csvdata"
+
+
 def write_to_new_csvfile(repositories: list[Github]):
     now = datetime.utcnow()
     filename = f"{now.date().isoformat()}.csv"
-    current_dir = pathlib.Path(__file__).parent.absolute()
-    file = open(f"{current_dir}/csvdata/{filename}", "w")
+
+    folderpath = csv_folderpath()
+    file = open(f"{folderpath}/{filename}", "w")
 
     print(f"Writing fetched data into {filename}")
 
