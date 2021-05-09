@@ -1,0 +1,6 @@
+# Folders
+mlopstools.egg-info/
+__pycache__/
+
+# Files
+*.pyc
