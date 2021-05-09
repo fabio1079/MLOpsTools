@@ -9,3 +9,5 @@ googleapis-common-protos==1.53.0
 gspread==3.7.0
 ipython==7.23.0
 jupyter==1.0.0
+pandas==1.2.4
+matplotlib==3.4.2
