@@ -26,6 +26,12 @@ query ($name: String!, $owner: String!) {
         }
       }
     }
+    openIssues: issues(states: OPEN) {
+      totalCount
+    }
+    closedIssues: issues(states: CLOSED) {
+      totalCount
+    }
     forkCount
     stargazerCount
     watchers {
@@ -103,6 +109,8 @@ class GithubApiFetcher(BaseFetcher):
             license_name = repo["licenseInfo"]["name"]
             primary_language = repo["primaryLanguage"]["name"]
             is_archived = repo["isArchived"]
+            open_issues = repo["openIssues"]["totalCount"]
+            closed_issues = repo["closedIssues"]["totalCount"]
 
             data = GithubRepositoryData(
                 main_branch=main_branch,
@@ -114,6 +122,8 @@ class GithubApiFetcher(BaseFetcher):
                 license_name=license_name,
                 primary_language=primary_language,
                 is_archived=is_archived,
+                open_issues=open_issues,
+                closed_issues=closed_issues,
             )
         except Exception as err:
             print(err)

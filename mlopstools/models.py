@@ -14,6 +14,8 @@ class GithubRepositoryData:
     license_name: str
     primary_language: str
     is_archived: bool
+    open_issues: int
+    closed_issues: int
 
 
 @dataclass

@@ -16,6 +16,8 @@ GITHUB_DATA_FIELDS = [
     "license_name",
     "primary_language",
     "is_archived",
+    "open_issues",
+    "closed_issues",
 ]
 
 
