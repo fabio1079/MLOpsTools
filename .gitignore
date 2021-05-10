@@ -1,6 +1,7 @@
 # Folders
 mlopstools.egg-info/
 __pycache__/
+.vscode/
 
 # Files
 *.pyc
