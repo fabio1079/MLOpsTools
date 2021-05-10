@@ -1,9 +1,0 @@
-{
-    "python.pythonPath": "/home/fabio/.pyenv/versions/TCC/bin/python3",
-    "editor.rulers": [80],
-    "editor.renderWhitespace": "trailing",
-    "editor.trimAutoWhitespace": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-}
