@@ -1,79 +1,79 @@
-gspread_row;use_area;tool_name;repo_owner;repo_name;main_branch;total_commits;last_commit_check;fork_count;stars_count;watchers_count;license_name;primary_language;is_archived
-2;AutoML;AutoGluon;awslabs;autogluon;master;600;False;413;3212;82;Apache License 2.0;Python;False
-3;AutoML;AutoKeras;keras-team;autokeras;master;1251;False;1282;7941;301;Apache License 2.0;Python;False
-4;AutoML;AutoPyTorch;automl;Auto-PyTorch;master;127;False;150;1218;43;Apache License 2.0;Python;False
-5;AutoML;AutoSKLearn;automl;auto-sklearn;master;2457;False;1017;5403;220;Other;Python;False
-6;AutoML;MLBox;AxeldeRomblay;MLBox;master;1121;True;254;1221;67;Other;Python;False
-7;CI/CD ;CML;iterative;cml;master;227;False;149;2360;45;Apache License 2.0;JavaScript;False
-8;Cron Job Monitoring;minicron;jamesrwhite;minicron;master;1249;True;165;2344;83;GNU General Public License v3.0;Ruby;False
-9;Cron Job Monitoring;healthchecks;healthchecks;healthchecks;master;1673;False;470;3754;92;BSD 3-Clause "New" or "Revised" License;Python;False
-10;Data Exploration;Apache Zeppelin;apache;zeppelin;master;4861;False;2466;5244;340;Apache License 2.0;Java;False
-11;Data Exploration;Jupyter Notebook;jupyter;notebook;master;12046;False;3391;8239;317;Other;JavaScript;False
-12;Data Exploration;Polynote;polynote;polynote;master;2079;False;363;4144;95;Apache License 2.0;TypeScript;False
-13;Data Management;dvc;iterative;dvc;master;6570;False;752;7878;121;Apache License 2.0;Python;False
-15;Data Management;Intake;intake;intake;master;1679;False;101;559;42;BSD 2-Clause "Simplified" License;Python;False
-16;Data Management;lakeFS;treeverse;lakeFS;master;2353;False;135;1147;20;Apache License 2.0;Go;False
-17;Data Processing;Airflow;apache;airflow;master;12340;False;8452;21434;738;Apache License 2.0;Python;False
-18;Data Processing;Hadoop;apache;hadoop;trunk;24910;False;7161;11578;1029;Apache License 2.0;Java;False
-19;Data Processing;Spark;apache;Spark;master;30011;False;23817;29613;2109;Apache License 2.0;Scala;False
-20;Data Processing;Dagster;dagster-io;dagster;master;7533;False;355;3219;65;Apache License 2.0;Python;False
-21;Data Validation;Cerberus;pyeve;cerberus;master;1145;False;211;2469;49;ISC License;Python;False
-22;Data Visualization;dash;plotly;dash;dev;3651;False;1467;14468;400;MIT License;Python;False
-24;Data Visualization;Facets;PAIR-code;facets;master;264;False;843;6567;276;Apache License 2.0;Jupyter Notebook;False
-25;Data Visualization;Metabase;metabase;metabase;master;20587;False;3313;24761;635;Other;Clojure;False
-26;Data Visualization;Redash;getredash;redash;master;7232;False;3239;18695;585;BSD 2-Clause "Simplified" License;Python;False
-27;Data Visualization;Superset;apache;superset;master;7434;False;7297;38441;1446;Apache License 2.0;Python;False
-29;Feature Store;Butterfree;quintoandar;butterfree;staging;271;False;20;147;79;Apache License 2.0;Python;False
-30;Feature Store;ByteHub;bytehub-ai;bytehub;master;95;False;0;20;1;GNU General Public License v3.0;Python;False
-31;Feature Store;Feast;feast-dev;feast;master;1639;False;305;1838;60;Apache License 2.0;Python;False
-32;Hyperparameter Tuning;Hyperas;maxpumperla;hyperas;master;209;False;305;2089;62;MIT License;Python;True
-33;Hyperparameter Tuning;Hyperopt;hyperopt;hyperopt;master;1172;False;883;5591;129;Other;Python;False
-34;Hyperparameter Tuning;Katib;kubeflow;katib;master;809;False;263;976;65;Apache License 2.0;Jsonnet;False
-35;Hyperparameter Tuning;optuna;optuna;optuna;master;9857;False;502;4524;132;MIT License;Python;False
-36;Hyperparameter Tuning;Scikit Optimize;scikit-optimize;scikit-optimize;master;1557;False;404;2104;64;BSD 3-Clause "New" or "Revised" License;Python;False
-38;Model Interpretability;Alibi;SeldonIO;alibi;master;266;False;127;982;43;Apache License 2.0;Python;False
-39;Model Interpretability;InterpretML;interpretml;interpret;develop;1645;False;465;3732;143;MIT License;C++;False
-40;Model Interpretability;LIME;marcotcr;lime;master;508;False;1434;8709;280;BSD 2-Clause "Simplified" License;JavaScript;False
-41;Model Interpretability;SHAP;slundberg;shap;master;1927;False;1857;12581;241;MIT License;Jupyter Notebook;False
-43;Model Lifecycle;Mlflow;mlflow;mlflow;master;1990;False;2019;9300;269;Apache License 2.0;Python;False
-44;Model Lifecycle;ModelDB;VertaAI;modeldb;master;2723;False;235;1205;65;Apache License 2.0;Java;False
-46;Model Lifecycle;Replicate;replicate;keepsake;main;788;False;56;1462;11;Apache License 2.0;Python;False
-47;Model Lifecycle;Sacred;IDSIA;sacred;master;1305;False;319;3439;86;MIT License;Python;False
-48;Model Serving;BentoML;bentoml;BentoML;master;1072;False;275;2428;48;Apache License 2.0;Python;False
-49;Model Serving;BudgetML;ebhy;budgetml;main;96;False;48;1189;26;Apache License 2.0;Python;False
-50;Model Serving;Cortex;cortexlabs;cortex;master;2097;False;573;7490;158;Apache License 2.0;Go;False
-51;Model Serving;GraphPipe;oracle;graphpipe;master;29;True;108;719;57;Other;Makefile;True
-52;Model Serving;KFServing;kubeflow;kfserving;master;759;False;379;902;44;Apache License 2.0;Jsonnet;False
-53;Model Serving;PredictionIO;apache;attic-predictionio;develop;4495;True;2021;12508;773;Apache License 2.0;Scala;True
-55;Model Serving;Streamlit;streamlit;streamlit;develop;4082;False;1247;14462;251;Apache License 2.0;Python;False
-56;Model Serving;TensorFlow Serving;tensorflow;serving;master;6061;False;1972;5015;241;Apache License 2.0;C++;False
-57;Model Serving;TorchServe;pytorch;serve;master;1271;False;284;1763;51;Apache License 2.0;Java;False
-58;Optimization Tools;Dask;dask;dask;main;6501;False;1268;8306;239;BSD 3-Clause "New" or "Revised" License;Python;False
-59;Optimization Tools;DeepSpeed;microsoft;DeepSpeed;master;555;False;473;4875;106;MIT License;Python;False
-60;Optimization Tools;Fiber;uber;fiber;master;66;False;98;885;23;Apache License 2.0;Python;False
-61;Optimization Tools;Horovod;horovod;horovod;master;930;False;1822;11183;333;Other;Python;False
-62;Optimization Tools;Mahout;apache;mahout;trunk;4499;False;958;1920;240;Apache License 2.0;Java;False
-64;Optimization Tools;Modin;modin-project;modin;master;1359;False;432;6035;107;Other;Python;False
-65;Optimization Tools;Petastorm;uber;petastorm;master;632;False;197;1141;40;Apache License 2.0;Python;False
-67;Optimization Tools;Ray;ray-project;ray;master;7995;False;2602;15870;417;Apache License 2.0;Python;False
-68;Optimization Tools;Singa;apache;singa;master;2265;False;630;2220;124;Apache License 2.0;C++;False
-69;Optimization Tools;Tpot;EpistasisLab;tpot;master;2368;False;1399;7990;295;GNU Lesser General Public License v3.0;Python;False
-70;Simplification Tools;Hermione;a3data;hermione;master;140;False;29;139;19;Apache License 2.0;Python;False
-71;Simplification Tools;Koalas;databricks;koalas;master;1536;False;310;2790;166;Apache License 2.0;Python;False
-72;Simplification Tools;Ludwig;ludwig-ai;ludwig;master;2123;False;908;7671;181;Apache License 2.0;Python;False
-73;Simplification Tools;PyCaret;pycaret;pycaret;master;1737;False;744;3400;91;Other;Jupyter Notebook;False
-74;Simplification Tools;TrainGenerator;jrieke;traingenerator;main;117;False;131;1001;38;MIT License;Python;False
-75;Simplification Tools;Turi Create;apple;turicreate;main;1567;False;1101;10249;363;BSD 3-Clause "New" or "Revised" License;C++;False
-76;Visual Analysis and Debugging;Manifold;uber;manifold;master;170;True;107;1463;59;Apache License 2.0;JavaScript;False
-77;Visual Analysis and Debugging;Netron;lutzroeder;netron;main;4354;False;1715;14355;239;MIT License;JavaScript;False
-78;Visual Analysis and Debugging;Yellowbrick;DistrictDataLabs;yellowbrick;develop;853;False;488;3214;103;Apache License 2.0;Python;False
-79;Workflow Tools;Argo;argoproj;argo-workflows;master;2445;False;1502;8446;176;Apache License 2.0;Go;False
-80;Workflow Tools;Couler;couler-proj;couler;master;164;False;40;454;15;Apache License 2.0;Python;False
-81;Workflow Tools;Flyte;flyteorg;flyte;master;230;False;104;1394;272;Apache License 2.0;Python;False
-82;Workflow Tools;Kale;kubeflow-kale;kale;master;638;False;69;361;12;Apache License 2.0;Python;False
-83;Workflow Tools;Kedro;quantumblacklabs;kedro;master;1219;False;444;3822;90;Other;Python;False
-84;Workflow Tools;Luigi;spotify;luigi;master;3993;False;2253;14522;501;Apache License 2.0;Python;False
-85;Workflow Tools;Metaflow;Netflix;metaflow;master;223;False;367;4332;216;Apache License 2.0;Python;False
-86;Workflow Tools;MLRun;mlrun;mlrun;development;1171;False;83;338;9;Other;Python;False
-87;Workflow Tools;Prefect;PrefectHQ;prefect;master;13956;False;578;6260;137;Apache License 2.0;Python;False
-88;Workflow Tools;ZenML;maiot-io;zenml;main;1319;False;61;1141;23;Apache License 2.0;Python;False
+gspread_row;use_area;tool_name;repo_owner;repo_name;main_branch;total_commits;last_commit_check;fork_count;stars_count;watchers_count;license_name;primary_language;is_archived;open_issues;closed_issues
+2;AutoML;AutoGluon;awslabs;autogluon;master;600;False;413;3212;82;Apache License 2.0;Python;False;89;346
+3;AutoML;AutoKeras;keras-team;autokeras;master;1251;False;1282;7941;301;Apache License 2.0;Python;False;67;669
+4;AutoML;AutoPyTorch;automl;Auto-PyTorch;master;127;False;150;1218;43;Apache License 2.0;Python;False;52;68
+5;AutoML;AutoSKLearn;automl;auto-sklearn;master;2457;False;1017;5403;220;Other;Python;False;96;612
+6;AutoML;MLBox;AxeldeRomblay;MLBox;master;1121;True;254;1221;67;Other;Python;False;13;73
+7;CI/CD ;CML;iterative;cml;master;227;False;149;2360;45;Apache License 2.0;JavaScript;False;41;192
+8;Cron Job Monitoring;minicron;jamesrwhite;minicron;master;1249;True;165;2344;83;GNU General Public License v3.0;Ruby;False;44;190
+9;Cron Job Monitoring;healthchecks;healthchecks;healthchecks;master;1673;False;470;3754;92;BSD 3-Clause "New" or "Revised" License;Python;False;66;308
+10;Data Exploration;Apache Zeppelin;apache;zeppelin;master;4861;False;2466;5244;340;Apache License 2.0;Java;False;0;0
+11;Data Exploration;Jupyter Notebook;jupyter;notebook;master;12046;False;3391;8239;317;Other;JavaScript;False;1985;2223
+12;Data Exploration;Polynote;polynote;polynote;master;2079;False;363;4144;95;Apache License 2.0;TypeScript;False;163;338
+13;Data Management;dvc;iterative;dvc;master;6570;False;752;7879;121;Apache License 2.0;Python;False;458;2454
+15;Data Management;Intake;intake;intake;master;1679;False;101;559;42;BSD 2-Clause "Simplified" License;Python;False;68;198
+16;Data Management;lakeFS;treeverse;lakeFS;master;2353;False;135;1147;20;Apache License 2.0;Go;False;130;443
+17;Data Processing;Airflow;apache;airflow;master;12340;False;8452;21434;738;Apache License 2.0;Python;False;808;2455
+18;Data Processing;Hadoop;apache;hadoop;trunk;24910;False;7161;11578;1029;Apache License 2.0;Java;False;0;0
+19;Data Processing;Spark;apache;Spark;master;30011;False;23817;29613;2109;Apache License 2.0;Scala;False;0;0
+20;Data Processing;Dagster;dagster-io;dagster;master;7534;False;355;3219;65;Apache License 2.0;Python;False;575;2300
+21;Data Validation;Cerberus;pyeve;cerberus;master;1145;False;211;2469;49;ISC License;Python;False;30;285
+22;Data Visualization;dash;plotly;dash;dev;3651;False;1469;14469;400;MIT License;Python;False;421;579
+24;Data Visualization;Facets;PAIR-code;facets;master;264;False;843;6567;276;Apache License 2.0;Jupyter Notebook;False;75;76
+25;Data Visualization;Metabase;metabase;metabase;master;20588;False;3313;24761;635;Other;Clojure;False;2086;6788
+26;Data Visualization;Redash;getredash;redash;master;7232;False;3239;18695;585;BSD 2-Clause "Simplified" License;Python;False;435;1646
+27;Data Visualization;Superset;apache;superset;master;7434;False;7297;38442;1446;Apache License 2.0;Python;False;639;5594
+29;Feature Store;Butterfree;quintoandar;butterfree;staging;271;False;20;147;79;Apache License 2.0;Python;False;2;9
+30;Feature Store;ByteHub;bytehub-ai;bytehub;master;95;False;0;20;1;GNU General Public License v3.0;Python;False;0;2
+31;Feature Store;Feast;feast-dev;feast;master;1640;False;305;1838;60;Apache License 2.0;Python;False;44;384
+32;Hyperparameter Tuning;Hyperas;maxpumperla;hyperas;master;209;False;305;2089;62;MIT License;Python;True;88;158
+33;Hyperparameter Tuning;Hyperopt;hyperopt;hyperopt;master;1172;False;883;5591;129;Other;Python;False;341;225
+34;Hyperparameter Tuning;Katib;kubeflow;katib;master;809;False;263;976;65;Apache License 2.0;Jsonnet;False;68;560
+35;Hyperparameter Tuning;optuna;optuna;optuna;master;9857;False;502;4524;132;MIT License;Python;False;139;630
+36;Hyperparameter Tuning;Scikit Optimize;scikit-optimize;scikit-optimize;master;1557;False;404;2104;64;BSD 3-Clause "New" or "Revised" License;Python;False;177;369
+38;Model Interpretability;Alibi;SeldonIO;alibi;master;266;False;127;982;43;Apache License 2.0;Python;False;79;94
+39;Model Interpretability;InterpretML;interpretml;interpret;develop;1645;False;465;3733;143;MIT License;C++;False;66;126
+40;Model Interpretability;LIME;marcotcr;lime;master;508;False;1434;8709;280;BSD 2-Clause "Simplified" License;JavaScript;False;56;446
+41;Model Interpretability;SHAP;slundberg;shap;master;1927;False;1857;12581;241;MIT License;Jupyter Notebook;False;1041;521
+43;Model Lifecycle;Mlflow;mlflow;mlflow;master;1990;False;2019;9300;269;Apache License 2.0;Python;False;609;1074
+44;Model Lifecycle;ModelDB;VertaAI;modeldb;master;2723;False;235;1205;65;Apache License 2.0;Java;False;77;40
+46;Model Lifecycle;Replicate;replicate;keepsake;main;788;False;56;1462;11;Apache License 2.0;Python;False;110;64
+47;Model Lifecycle;Sacred;IDSIA;sacred;master;1305;False;319;3439;86;MIT License;Python;False;90;405
+48;Model Serving;BentoML;bentoml;BentoML;master;1072;False;275;2429;48;Apache License 2.0;Python;False;99;310
+49;Model Serving;BudgetML;ebhy;budgetml;main;96;False;48;1189;26;Apache License 2.0;Python;False;1;4
+50;Model Serving;Cortex;cortexlabs;cortex;master;2098;False;573;7490;158;Apache License 2.0;Go;False;122;882
+51;Model Serving;GraphPipe;oracle;graphpipe;master;29;True;108;719;57;Other;Makefile;True;12;1
+52;Model Serving;KFServing;kubeflow;kfserving;master;759;False;379;902;44;Apache License 2.0;Jsonnet;False;164;552
+53;Model Serving;PredictionIO;apache;attic-predictionio;develop;4495;True;2021;12508;773;Apache License 2.0;Scala;True;0;0
+55;Model Serving;Streamlit;streamlit;streamlit;develop;4082;False;1247;14462;251;Apache License 2.0;Python;False;500;1224
+56;Model Serving;TensorFlow Serving;tensorflow;serving;master;6061;False;1972;5015;241;Apache License 2.0;C++;False;78;1194
+57;Model Serving;TorchServe;pytorch;serve;master;1271;False;284;1763;51;Apache License 2.0;Java;False;108;441
+58;Optimization Tools;Dask;dask;dask;main;6501;False;1268;8306;239;BSD 3-Clause "New" or "Revised" License;Python;False;651;3002
+59;Optimization Tools;DeepSpeed;microsoft;DeepSpeed;master;555;False;473;4875;106;MIT License;Python;False;203;248
+60;Optimization Tools;Fiber;uber;fiber;master;66;False;98;885;23;Apache License 2.0;Python;False;13;8
+61;Optimization Tools;Horovod;horovod;horovod;master;930;False;1822;11183;333;Other;Python;False;223;1550
+62;Optimization Tools;Mahout;apache;mahout;trunk;4499;False;958;1920;240;Apache License 2.0;Java;False;0;0
+64;Optimization Tools;Modin;modin-project;modin;master;1359;False;432;6035;107;Other;Python;False;497;1214
+65;Optimization Tools;Petastorm;uber;petastorm;master;632;False;197;1141;40;Apache License 2.0;Python;False;118;116
+67;Optimization Tools;Ray;ray-project;ray;master;7996;False;2602;15871;417;Apache License 2.0;Python;False;1397;5208
+68;Optimization Tools;Singa;apache;singa;master;2265;False;630;2220;124;Apache License 2.0;C++;False;17;35
+69;Optimization Tools;Tpot;EpistasisLab;tpot;master;2368;False;1399;7990;295;GNU Lesser General Public License v3.0;Python;False;211;596
+70;Simplification Tools;Hermione;a3data;hermione;master;140;False;29;139;19;Apache License 2.0;Python;False;0;8
+71;Simplification Tools;Koalas;databricks;koalas;master;1536;False;310;2790;166;Apache License 2.0;Python;False;96;439
+72;Simplification Tools;Ludwig;ludwig-ai;ludwig;master;2123;False;908;7671;181;Apache License 2.0;Python;False;109;426
+73;Simplification Tools;PyCaret;pycaret;pycaret;master;1737;False;744;3400;91;Other;Jupyter Notebook;False;200;651
+74;Simplification Tools;TrainGenerator;jrieke;traingenerator;main;117;False;131;1001;38;MIT License;Python;False;7;3
+75;Simplification Tools;Turi Create;apple;turicreate;main;1567;False;1101;10249;363;BSD 3-Clause "New" or "Revised" License;C++;False;461;1264
+76;Visual Analysis and Debugging;Manifold;uber;manifold;master;170;True;107;1463;59;Apache License 2.0;JavaScript;False;31;36
+77;Visual Analysis and Debugging;Netron;lutzroeder;netron;main;4354;False;1715;14355;239;MIT License;JavaScript;False;24;620
+78;Visual Analysis and Debugging;Yellowbrick;DistrictDataLabs;yellowbrick;develop;853;False;488;3214;103;Apache License 2.0;Python;False;79;532
+79;Workflow Tools;Argo;argoproj;argo-workflows;master;2445;False;1502;8446;176;Apache License 2.0;Go;False;374;2671
+80;Workflow Tools;Couler;couler-proj;couler;master;164;False;40;454;15;Apache License 2.0;Python;False;21;23
+81;Workflow Tools;Flyte;flyteorg;flyte;master;230;False;104;1394;272;Apache License 2.0;Python;False;257;456
+82;Workflow Tools;Kale;kubeflow-kale;kale;master;638;False;69;361;12;Apache License 2.0;Python;False;50;58
+83;Workflow Tools;Kedro;quantumblacklabs;kedro;master;1219;False;444;3823;90;Other;Python;False;38;423
+84;Workflow Tools;Luigi;spotify;luigi;master;3993;False;2253;14522;501;Apache License 2.0;Python;False;53;843
+85;Workflow Tools;Metaflow;Netflix;metaflow;master;223;False;367;4332;216;Apache License 2.0;Python;False;117;152
+86;Workflow Tools;MLRun;mlrun;mlrun;development;1171;False;83;338;9;Other;Python;False;21;84
+87;Workflow Tools;Prefect;PrefectHQ;prefect;master;13956;False;578;6260;137;Apache License 2.0;Python;False;282;1411
+88;Workflow Tools;ZenML;maiot-io;zenml;main;1319;False;61;1141;23;Apache License 2.0;Python;False;9;28
