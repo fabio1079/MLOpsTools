@@ -5,7 +5,7 @@ from datetime import datetime
 from mlopstools.models import Github
 
 
-GITHUB_FIELDS = ["gspread_row", "owner", "name"]
+GITHUB_FIELDS = ["gspread_row", "use_area", "tool_name", "repo_owner", "repo_name"]
 GITHUB_DATA_FIELDS = [
     "main_branch",
     "total_commits",
@@ -41,8 +41,8 @@ def list_to_csvline(lst: list) -> str:
 def make_file_line_data(repository: Github) -> str:
     data = grab_data(repository, GITHUB_FIELDS)
 
-    if repository.data is not None:
-        data += grab_data(repository.data, GITHUB_DATA_FIELDS)
+    if repository.repo_data is not None:
+        data += grab_data(repository.repo_data, GITHUB_DATA_FIELDS)
 
     return list_to_csvline(data)
 
@@ -64,12 +64,12 @@ def write_to_new_csvfile(repositories: list[Github]):
     first_line = [*GITHUB_FIELDS, *GITHUB_DATA_FIELDS]
     file.write(list_to_csvline(first_line))
 
-    for repo in repositories:
-        if repo.data is None:
-            print(f"Skiping {repo.owner}/{repo.name} as it have not data")
+    for tool in repositories:
+        if tool.repo_data is None:
+            print(f"Skiping {tool.repo_owner}/{tool.repo_name} as it have not data")
             continue
 
-        line_data = make_file_line_data(repo)
+        line_data = make_file_line_data(tool)
         file.write(line_data)
 
     file.close()

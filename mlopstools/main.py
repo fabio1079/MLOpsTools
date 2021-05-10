@@ -1,13 +1,15 @@
 import sys
 
 from mlopstools.models import Github
-from mlopstools.sheet import grab_github_repositories
+from mlopstools.fetchers.sheetfetcher import SheetDataFetcher
 from mlopstools.collectdata import update_github_with_data
 from mlopstools.updatecsv import write_to_new_csvfile
 
 
 def fetch_data() -> list[Github]:
-    repositories = grab_github_repositories()
+    sheet_fetcher = SheetDataFetcher()
+
+    repositories = sheet_fetcher.fetch()
     repositories = update_github_with_data(repositories)
     return repositories
 

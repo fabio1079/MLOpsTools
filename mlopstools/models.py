@@ -19,9 +19,11 @@ class GithubRepositoryData:
 @dataclass
 class Github:
     gspread_row: int
-    owner: str
-    name: str
-    data: GithubRepositoryData = None
+    use_area: str
+    tool_name: str
+    repo_owner: str
+    repo_name: str
+    repo_data: GithubRepositoryData = None
 
 
 @dataclass

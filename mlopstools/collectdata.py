@@ -111,9 +111,9 @@ def fetch_github_data(repository: Github) -> Github:
     Given a Github it will fetch the github api and update it with its
     GithubRepositoryData
     """
-    data = fetch_data(repository.name, repository.owner)
+    data = fetch_data(repository.repo_name, repository.repo_owner)
     github_data = map_query_to_repository_data(data)
-    repository.data = github_data
+    repository.repo_data = github_data
 
     return repository
 
