@@ -49,12 +49,15 @@ class SheetDataFetcher(BaseFetcher):
     def _build_github_list(
         self, areas: list, names: list, urls: list
     ) -> Iterable[Github]:
-        gspread_row = 2
+        gspread_row = 1
 
         hubs = []
         for (use_area, tool_name, url) in zip(areas, names, urls):
+            gspread_row += 1
+
             try:
                 (owner, name) = self._get_repository_from_url(url)
+
                 github = Github(
                     gspread_row=gspread_row,
                     use_area=use_area,
@@ -62,8 +65,8 @@ class SheetDataFetcher(BaseFetcher):
                     repo_owner=owner,
                     repo_name=name,
                 )
+
                 hubs.append(github)
-                gspread_row += 1
             except Exception as e:
                 print(e)
 
