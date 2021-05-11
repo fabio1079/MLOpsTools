@@ -1,12 +1,13 @@
 import sys
+from typing import List
 
 from mlopstools.models import Github
 from mlopstools.fetchers.sheetfetcher import SheetDataFetcher
 from mlopstools.fetchers.githubapifetcher import GithubApiFetcher
-from mlopstools.updatecsv import write_to_new_csvfile
+from mlopstools.updaters.csvfilegenerator import CSVFileGenerator
 
 
-def fetch_data() -> list[Github]:
+def fetch_data() -> List[Github]:
     sheet_fetcher = SheetDataFetcher()
     repositories = sheet_fetcher.fetch()
     api_fetcher = GithubApiFetcher(repositories)
@@ -14,12 +15,13 @@ def fetch_data() -> list[Github]:
     return api_fetcher.fetch()
 
 
-def update_csv(repositories: list[Github]):
-    write_to_new_csvfile(repositories)
+def update_csv(repositories: List[Github]):
+    csv_generator = CSVFileGenerator(repositories)
+    csv_generator.update()
     print("done")
 
 
-def update_spreadsheet(repositories: list[Github]):
+def update_spreadsheet(repositories: List[Github]):
     pass
 
 
